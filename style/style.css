@@ -240,6 +240,14 @@ main {
     gap: 25px;
   }
 
+  .card-h {
+    font-size: 35px;
+  }
+
+  .card-p {
+    font-size: 20px;
+  }
+
   .card h1 {
     font-size: 25px;
   }
@@ -251,5 +259,6 @@ main {
   .card button {
     width: 100%;
     padding: 15px;
+    font-size: 15px;
   }
 }
