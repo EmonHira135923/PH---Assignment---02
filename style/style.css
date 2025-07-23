@@ -8,6 +8,11 @@
 
 /* header */
 
+img {
+  height: 100%;
+  width: 100%;
+}
+
 header {
   max-width: 1120px;
   margin: 0 auto;
@@ -83,12 +88,15 @@ nav {
   width: 50%;
 }
 
-.display-none {
-  display: none;
+.hero-pic {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 50px;
 }
 
-/* Media Query */
+/* card item */
 
+/* Media Query */
 @media screen and (max-width: 576px) {
   /* Hero and nav var done */
   .nav-container {
@@ -119,9 +127,10 @@ nav {
 
   .hero-container {
     flex-direction: column-reverse;
-    text-align: center;
+    text-align: left;
     gap: 30px;
     padding: 10px;
+    margin-left: 15px;
   }
 
   .hero-text {
@@ -142,10 +151,11 @@ nav {
     width: auto;
   }
 
-  .hero-img img {
-    width: 100%;
-    height: 100%;
-    max-width: 300px;
+  .hero-pic {
+    height: 400px;
+    width: 400px;
   }
   /* Hero section and nav var done */
+
+  /* card item */
 }
