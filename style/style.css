@@ -96,6 +96,81 @@ nav {
 
 /* card item */
 
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.card-section {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.card-h {
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+.card-p {
+  font-size: 30px;
+  color: gray;
+}
+
+.card-span {
+  color: #e95a08;
+}
+
+.card-h,
+.card-p {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.card-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.sample-flower {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card h1 {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card button {
+  text-align: center;
+  font-size: 20px;
+  background-color: #e95a08;
+  color: white;
+  width: 100%;
+  padding: 25px 25px;
+  border: none;
+  border-radius: 25px;
+}
+
+.card button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: aqua;
+}
+
 /* Media Query */
 @media screen and (max-width: 576px) {
   /* Hero and nav var done */
@@ -158,4 +233,18 @@ nav {
   /* Hero section and nav var done */
 
   /* card item */
+
+  .card-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .card h1 {
+    font-size: 25px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
 }
