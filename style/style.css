@@ -247,4 +247,8 @@ main {
   .card p {
     font-size: 20px;
   }
+
+  .card button {
+    width: auto;
+  }
 }
