@@ -46,6 +46,11 @@ nav {
   color: #e95a08;
 }
 
+.img-logo {
+  height: 100%;
+  width: 100%;
+}
+
 /* hero section */
 
 .hero-container {
@@ -76,4 +81,73 @@ nav {
 
 .hero-img {
   width: 50%;
+}
+
+.display-none {
+  display: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 576px) {
+  /* Hero and nav var done */
+  .nav-container {
+    flex-direction: row;
+    padding: 15px;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-logo {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    display: block;
+  }
+
+  .view {
+    display: none;
+  }
+
+  .ul-list {
+    font-size: 18px;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .hero-text {
+    width: auto;
+  }
+
+  .hero-h {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-p {
+    font-size: 18px;
+  }
+
+  .hero-img {
+    width: auto;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+  }
+  /* Hero section and nav var done */
 }
