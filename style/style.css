@@ -96,14 +96,10 @@ nav {
 
 /* card item */
 
-main {
+.card-section {
   max-width: 1120px;
   margin: 0 auto;
-}
-
-.card-section {
-  margin-top: 30px;
-  padding: 20px;
+  padding: 50px;
 }
 
 .card-h {
@@ -169,6 +165,110 @@ main {
   cursor: pointer;
   background-color: black;
   color: aqua;
+}
+
+/* card ended */
+
+/* .latest-deal-bg-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 30px;
+}
+
+.latest-deal-img {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+}
+
+.img-first {
+  background-image: url("../assets/deal-bloom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+}
+
+.img-second {
+  background-image: url("../assets/deal-ana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.img-third {
+  background-image: url("../assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+} */
+
+/* Section Contact */
+.section-contact {
+  width: 100%;
+}
+
+.background-img {
+  background-image: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.background-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-contact-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-input {
+  width: 550px;
+  padding: 25px 25px;
+  font-size: 25px;
+  background-color: white;
+  outline-color: #e95a08;
+}
+
+.sub-btn {
+  width: 250px;
+  padding: 30px 30px;
+  font-size: 20px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.sub-input:focus {
+  margin-right: 2px;
 }
 
 /* Media Query */
@@ -260,5 +360,34 @@ main {
     width: 100%;
     padding: 15px;
     font-size: 15px;
+  }
+
+  /* card complete */
+
+  /* contact  section */
+
+  .section-contact {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  .background-img {
+    margin-top: 50px;
+  }
+
+  .contact-h1 {
+    font-size: 30px;
+  }
+
+  .sub-input {
+    width: 250px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .sub-btn {
+    width: 100px;
+    font-size: 10px;
+    padding: 15px;
   }
 }
