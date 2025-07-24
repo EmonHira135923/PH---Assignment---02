@@ -512,13 +512,13 @@ nav {
   }
 
   .img-third {
-    height: 300px;
+    height: 250px;
     padding: 60px;
   }
 
   .img-first,
   .img-second {
-    height: 200px;
+    height: 150px;
     padding: 40px;
   }
 
@@ -527,7 +527,7 @@ nav {
   }
 
   .latest-a-tag {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .latest-h1 {
@@ -535,7 +535,7 @@ nav {
   }
 
   .latest-h {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   /* Latest Deal end */
@@ -547,11 +547,11 @@ nav {
   }
 
   .contact-h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .sub-input {
-    width: 250px;
+    width: 200px;
     font-size: 15px;
     padding: 10px;
   }
