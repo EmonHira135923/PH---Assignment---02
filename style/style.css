@@ -511,32 +511,36 @@ nav {
     flex-direction: column;
   }
 
-  .img-first,
-  .img-second,
   .img-third {
     height: 300px;
     padding: 60px;
-    width: 100%;
   }
 
-  .latest-a1-tag,
-  .latest-a-tag {
+  .img-first,
+  .img-second {
+    height: 200px;
+    padding: 40px;
+  }
+
+  .latest-a1-tag {
     font-size: 15px;
   }
 
-  .latest-h1,
-  .latest-h {
+  .latest-a-tag {
+    font-size: 10px;
+  }
+
+  .latest-h1 {
     font-size: 25px;
+  }
+
+  .latest-h {
+    font-size: 15px;
   }
 
   /* Latest Deal end */
 
   /* contact  section start */
-
-  .section-contact {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
 
   .background-img {
     margin-top: 50px;
