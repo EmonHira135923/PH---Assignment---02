@@ -405,10 +405,12 @@ nav {
 
 .Second-element {
   flex: 1;
+  margin-left: 50px;
 }
 
 .Third-element {
   flex: 1;
+  margin-left: 50px;
 }
 
 .Fourth-element {
@@ -479,7 +481,7 @@ nav {
   }
 
   .hero-text {
-    width: auto;
+    width: 100%;
   }
 
   .hero-h {
@@ -511,11 +513,15 @@ nav {
   }
 
   .card-h {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .card-p {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .card {
+    margin-top: 35px;
   }
 
   .card h1 {
@@ -630,14 +636,14 @@ nav {
 
   .footer-element {
     flex-direction: column;
-    margin-left: 15px;
-    flex-wrap: wrap;
+    margin-left: 30px;
   }
 
   .footer-img-container {
     flex-direction: row;
     gap: 25px;
     margin-bottom: 25px;
+    margin-left: 20px;
   }
 
   /* footer end */
