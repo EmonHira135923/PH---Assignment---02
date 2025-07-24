@@ -489,6 +489,16 @@ nav {
     flex-direction: column;
   }
 
+  .ch-t-h {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .ch-t-text article ul li {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
   .trusted-badge {
     visibility: hidden;
   }
@@ -502,29 +512,21 @@ nav {
   }
 
   .img-first,
-  .img-second {
-    height: 150px;
-  }
-
+  .img-second,
   .img-third {
-    height: 180px;
-    padding: 15px;
+    height: 300px;
+    padding: 60px;
+    width: 100%;
   }
 
-  .latest-a1-tag {
+  .latest-a1-tag,
+  .latest-a-tag {
     font-size: 15px;
   }
 
-  .latest-a-tag {
-    font-size: 10px;
-  }
-
-  .latest-h1 {
-    font-size: 25px;
-  }
-
+  .latest-h1,
   .latest-h {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   /* Latest Deal end */
