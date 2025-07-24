@@ -169,8 +169,62 @@ nav {
 
 /* card ended */
 
-/* latest deal task */
+/* challenging task start */
+.challenging-task-section {
+  margin: 0 auto;
+  max-width: 1120px;
+}
 
+.ct-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+.ch-t-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.ch-t-img {
+  flex: 1;
+  position: relative;
+}
+
+.trusted-badge {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 30%;
+  left: 60%;
+  transform: translate(30%, -100%);
+}
+
+.ch-t-text {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.ch-t-h {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: start;
+  margin-bottom: 40px;
+}
+
+.ch-t-text article ul li {
+  list-style: disc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: gray;
+  font-size: 20px;
+}
+
+/* challenging task end */
+
+/* latest deal task */
 .Latest-deal-section {
   max-width: 1120px;
   margin: 0 auto;
@@ -273,7 +327,6 @@ nav {
   cursor: pointer;
   color: black;
 }
-
 /* latest deal task end */
 
 /* Section Contact */
@@ -334,6 +387,8 @@ nav {
 .sub-input:focus {
   margin-right: 2px;
 }
+
+/* contact ended */
 
 /* Media Query */
 @media screen and (max-width: 576px) {
@@ -427,6 +482,18 @@ nav {
   }
 
   /* card complete */
+
+  /* challenging task start */
+
+  .ch-t-content {
+    flex-direction: column;
+  }
+
+  .trusted-badge {
+    visibility: hidden;
+  }
+
+  /* challenging task end */
 
   /* Latest Deal start */
 
