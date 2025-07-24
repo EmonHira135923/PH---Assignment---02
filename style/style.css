@@ -539,6 +539,7 @@ nav {
 
   .latest-h {
     font-size: 20px;
+    font-weight: 500;
   }
 
   /* Latest Deal end */
@@ -550,19 +551,19 @@ nav {
   }
 
   .contact-h1 {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .sub-input {
-    width: 250px;
-    font-size: 12px;
+    width: 220px;
+    font-size: 10px;
     padding: 10px;
   }
 
   .sub-btn {
     width: 80px;
-    font-size: 10px;
-    padding: 15px;
+    font-size: 8px;
+    padding: 12px 12px;
   }
 
   /* Contact section end */
