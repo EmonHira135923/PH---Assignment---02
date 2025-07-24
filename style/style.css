@@ -37,14 +37,24 @@ nav {
   font-weight: 500;
 }
 
-.a-tag {
-  text-decoration: none;
+.Home-tag {
+  font-weight: bold;
 }
 
-.a-tag:hover {
+.cart-tag {
+  font-weight: 400;
+}
+
+.a-tag {
+  text-decoration: none;
+  color: gray;
+}
+
+.a-tag:hover,
+.Home-tag:hover,
+.cart-tag:hover {
   cursor: pointer;
   color: #e95a08;
-  transition-delay: 0.2s;
 }
 
 .img-logo {
@@ -126,21 +136,20 @@ nav {
 
 .sample-flower {
   height: 400px;
-  width: 400px;
-  border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
 
 .card h1 {
-  font-size: 35px;
-  font-weight: 500;
+  font-size: 45px;
+  font-weight: 600;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .card p {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 300;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -152,16 +161,14 @@ nav {
   background-color: #e95a08;
   color: white;
   width: 100%;
-  padding: 25px 25px;
+  padding: 20px 20px;
   border: none;
-  border-radius: 25px;
 }
 
 .card button:hover {
   cursor: pointer;
   background-color: black;
   color: aqua;
-  transition-delay: 0.3s;
 }
 
 /* card ended */
@@ -201,16 +208,15 @@ nav {
 
 .trusted-badge {
   position: absolute;
-  height: 250px;
-  width: 250px;
+  height: 280px;
+  width: 280px;
   top: 30%;
-  left: 60%;
+  left: 50%;
   animation: spin 5s linear infinite;
 }
 
 .ch-t-text {
   flex: 1;
-  margin-left: 20px;
 }
 
 .ch-t-h {
@@ -388,7 +394,6 @@ nav {
   color: white;
   border: none;
   text-align: center;
-  border-radius: 10px;
 }
 
 .sub-input:focus {
@@ -398,7 +403,6 @@ nav {
 .sub-btn:hover {
   cursor: pointer;
   color: aqua;
-  transition-delay: 0.2s;
   background-color: black;
 }
 
@@ -467,7 +471,6 @@ nav {
 .last-img:hover {
   cursor: pointer;
   color: #e95a08;
-  transition-delay: 0.3s;
 }
 
 /* Footer Section */
@@ -499,6 +502,10 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-self: center;
+  }
+
+  .cart-tag {
+    font-weight: 500;
   }
 
   .hero-container {
@@ -542,11 +549,13 @@ nav {
   }
 
   .card-h {
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: bold;
   }
 
   .card-p {
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: normal;
   }
 
   .card {
@@ -600,15 +609,15 @@ nav {
     flex-direction: column;
   }
 
+  .img-first,
+  .img-second,
   .img-third {
     height: 250px;
-    padding: 60px;
+    padding: 40px;
   }
 
-  .img-first,
-  .img-second {
-    height: 150px;
-    padding: 40px;
+  .img-third {
+    padding: 50px;
   }
 
   .latest-a-tag,
@@ -616,23 +625,15 @@ nav {
     text-decoration: double;
   }
 
-  .latest-a1-tag {
-    font-size: 15px;
-    text-decoration: underline;
-  }
-
+  .latest-a1-tag,
   .latest-a-tag {
     font-size: 15px;
     text-decoration: underline;
   }
 
-  .latest-h1 {
-    font-size: 20px;
-  }
-
+  .latest-h1,
   .latest-h {
     font-size: 20px;
-    font-weight: 500;
   }
 
   /* Latest Deal end */
