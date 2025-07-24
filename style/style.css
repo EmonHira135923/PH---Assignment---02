@@ -434,17 +434,30 @@ nav {
     flex-direction: column;
   }
 
+  .img-first,
+  .img-second {
+    height: 150px;
+  }
+
   .img-third {
-    height: 200px;
-    padding: 20px;
+    height: 180px;
+    padding: 15px;
   }
 
   .latest-a1-tag {
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  .latest-a-tag {
+    font-size: 10px;
   }
 
   .latest-h1 {
-    font-size: 35px;
+    font-size: 25px;
+  }
+
+  .latest-h {
+    font-size: 20px;
   }
 
   /* Latest Deal end */
