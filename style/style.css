@@ -500,7 +500,7 @@ nav {
   }
 
   .trusted-badge {
-    visibility: hidden;
+    display: none;
   }
 
   /* challenging task end */
