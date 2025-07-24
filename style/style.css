@@ -169,29 +169,45 @@ nav {
 
 /* card ended */
 
-/* .latest-deal-bg-img {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding: 30px;
+/* latest deal task */
+
+.Latest-deal-section {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.latest-deal-bg-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .latest-deal-img {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 25px;
+  flex: 1;
+}
+
+.img-last-container {
+  flex: 1;
 }
 
 .img-first {
   background-image: url("../assets/deal-bloom.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
-  width: 100%;
   background-position: center;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.img-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .img-second {
@@ -199,8 +215,15 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 50vh;
-  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .img-third {
@@ -208,9 +231,50 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: auto;
-  width: 100%;
-} */
+  height: 430px;
+  border-radius: 10px;
+}
+
+.img-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.latest-h1 {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+.latest-a1-tag {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.latest-h {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.latest-a-tag {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.latest-a-tag:hover,
+.latest-a1-tag:hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* latest deal task end */
 
 /* Section Contact */
 .section-contact {
@@ -349,11 +413,11 @@ nav {
   }
 
   .card h1 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .card p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .card button {
@@ -364,7 +428,28 @@ nav {
 
   /* card complete */
 
-  /* contact  section */
+  /* Latest Deal start */
+
+  .latest-deal-bg-img {
+    flex-direction: column;
+  }
+
+  .img-third {
+    height: 200px;
+    padding: 20px;
+  }
+
+  .latest-a1-tag {
+    font-size: 20px;
+  }
+
+  .latest-h1 {
+    font-size: 35px;
+  }
+
+  /* Latest Deal end */
+
+  /* contact  section start */
 
   .section-contact {
     max-width: 1120px;
@@ -390,4 +475,6 @@ nav {
     font-size: 10px;
     padding: 15px;
   }
+
+  /* Contact section end */
 }
