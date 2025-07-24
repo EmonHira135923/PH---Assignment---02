@@ -44,6 +44,7 @@ nav {
 .a-tag:hover {
   cursor: pointer;
   color: #e95a08;
+  transition-delay: 0.2s;
 }
 
 .img-logo {
@@ -160,6 +161,7 @@ nav {
   cursor: pointer;
   background-color: black;
   color: aqua;
+  transition-delay: 0.3s;
 }
 
 /* card ended */
@@ -188,13 +190,22 @@ nav {
   position: relative;
 }
 
+@keyframes spin {
+  0% {
+    transform: translate(30%, -100%) rotate(0deg);
+  }
+  100% {
+    transform: translate(30%, -100%) rotate(360deg);
+  }
+}
+
 .trusted-badge {
   position: absolute;
   height: 250px;
   width: 250px;
   top: 30%;
   left: 60%;
-  transform: translate(30%, -100%);
+  animation: spin 5s linear infinite;
 }
 
 .ch-t-text {
@@ -377,10 +388,18 @@ nav {
   color: white;
   border: none;
   text-align: center;
+  border-radius: 10px;
 }
 
 .sub-input:focus {
   margin-right: 2px;
+}
+
+.sub-btn:hover {
+  cursor: pointer;
+  color: aqua;
+  transition-delay: 0.2s;
+  background-color: black;
 }
 
 /* contact ended */
@@ -442,6 +461,13 @@ nav {
 .last-img {
   height: 40px;
   width: 40px;
+}
+
+.foooter-li:hover,
+.last-img:hover {
+  cursor: pointer;
+  color: #e95a08;
+  transition-delay: 0.3s;
 }
 
 /* Footer Section */
@@ -641,12 +667,16 @@ nav {
     flex-direction: column;
     align-items: start;
     flex-wrap: wrap;
+    gap: 0px;
+    margin-top: 0px;
   }
 
   .footer-img-container {
     flex-direction: row;
     align-items: start;
     flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 
   /* footer end */
