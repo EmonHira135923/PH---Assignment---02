@@ -546,16 +546,16 @@ nav {
   .card-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 20px;
   }
 
   .card-h {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
   }
 
   .card-p {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
   }
 
@@ -566,23 +566,26 @@ nav {
   .card h1 {
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 20px;
   }
 
   .sample-flower {
-    height: 400px;
+    height: 200px;
     width: 100%;
   }
 
   .card p {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bolder;
+    margin-top: 0px;
   }
 
   .card button {
     width: 100%;
-    padding: 15px;
-    font-size: 15px;
-    font-weight: 400;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 600;
   }
 
   /* card complete */
@@ -594,7 +597,7 @@ nav {
   }
 
   .ch-t-h {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
   }
 
