@@ -60,6 +60,7 @@ nav {
 .img-logo {
   height: 100%;
   width: 100%;
+  margin-bottom: 25px;
 }
 
 /* hero section */
@@ -140,7 +141,7 @@ nav {
 }
 
 .card h1 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
@@ -148,8 +149,8 @@ nav {
 }
 
 .card p {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 500;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -565,6 +566,11 @@ nav {
   .card h1 {
     font-size: 16px;
     font-weight: 500;
+  }
+
+  .sample-flower {
+    height: 400px;
+    width: 100%;
   }
 
   .card p {
