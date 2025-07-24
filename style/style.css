@@ -8,11 +8,6 @@
 
 /* header */
 
-img {
-  height: 100%;
-  width: 100%;
-}
-
 header {
   max-width: 1120px;
   margin: 0 auto;
@@ -390,6 +385,62 @@ nav {
 
 /* contact ended */
 
+/* Footer section */
+
+.Footer-section {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.footer-element {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.First-element {
+  flex: 1;
+}
+
+.Second-element {
+  flex: 1;
+}
+
+.Third-element {
+  flex: 1;
+}
+
+.Fourth-element {
+  flex: 1;
+}
+
+.footer-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.footer-p {
+  font-size: 20px;
+  color: gray;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.last-img {
+  height: 40px;
+  width: 40px;
+}
+
+/* Footer Section */
+
 /* Media Query */
 @media screen and (max-width: 576px) {
   /* Hero and nav var done */
@@ -574,4 +625,20 @@ nav {
   }
 
   /* Contact section end */
+
+  /* footer start */
+
+  .footer-element {
+    flex-direction: column;
+    margin-left: 15px;
+    flex-wrap: wrap;
+  }
+
+  .footer-img-container {
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+
+  /* footer end */
 }
