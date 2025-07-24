@@ -306,7 +306,7 @@ nav {
   font-size: 25px;
   font-weight: bold;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .latest-h {
@@ -319,7 +319,7 @@ nav {
   font-size: 20px;
   font-weight: bold;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .latest-a-tag:hover,
@@ -525,12 +525,19 @@ nav {
     padding: 40px;
   }
 
+  .latest-a-tag,
+  .latest-a1-tag {
+    text-decoration: double;
+  }
+
   .latest-a1-tag {
     font-size: 15px;
+    text-decoration: underline;
   }
 
   .latest-a-tag {
     font-size: 15px;
+    text-decoration: underline;
   }
 
   .latest-h1 {
